@@ -1,0 +1,5 @@
+mvn clean test jacoco:report sonar:sonar package -Dsonar.scm.disabled=true
+cp -r ./* $ALAUDACI_DEST_DIR/
+cp target/demo.war $ALAUDACI_UPLOAD_DIR
+cp -r target/site/jacoco/ $ALAUDACI_UPLOAD_DIR/jacoco/
+
