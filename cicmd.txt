@@ -3,3 +3,6 @@ cp -r ./* $ALAUDACI_DEST_DIR/
 cp target/demo.war $ALAUDACI_UPLOAD_DIR
 cp -r target/site/jacoco/ $ALAUDACI_UPLOAD_DIR/jacoco/
 
+AccessKey ID="LTAI5tCQ1SQzTHMZHii71gbX"
+
+AccessKey Secret="XAeTHvi5M23DSu4eCE8V5qrhOy7yn8"
